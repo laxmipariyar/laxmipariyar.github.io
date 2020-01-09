@@ -35,7 +35,7 @@ span{color: #f17e14;  font-family: 'Kaushan Script', cursive;}
 #Featured .card{ box-shadow: 5px 5px 15px 5px #55362c;}
 #Featured .card img:hover{ transform: scale(1.5,1.5); transition: 0.9s;}
 .abtimg{position :relative; text-align: center;}
-#about{background: url(Featured1.png); background-size:cover; padding: 30px; background-attachment: fixed;}
+#about{background: url(featured1.png); background-size:cover; padding: 30px; background-attachment: fixed;}
 #about p{ position :absolute; color:#000; top:71px; font-size: 10px; text-align: center; left:  373px;}
 #about p:hover{transform: scale(1.5,1.5); transition: 0.9s;}
 #about h2{ text-align: center; margin-bottom: 30px;}
