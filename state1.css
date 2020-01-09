@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+body {
+	background: #55362c;
+	font-family: 'Lora', serif;
+position: relative;
+}
+#home
+{
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(hom.jpg);
+	background-size: cover;
+    height:100vh;
+	color: #fff;
+	padding: 10px;
+	 background-attachment: fixed;
+}
+#top img{background:white;height:46px; width:58px; padding: 5px; margin: 15px 15px;}
+#top li a{color: #fff!important; margin-right:39px; border-radius: 25%;
+font-weight:500;}
+#top li a:hover{background:#f48e30;}
+.hometext { text-align: center; padding-top: 150px; }
+span{color: #f17e14;  font-family: 'Kaushan Script', cursive;}
+.btn{background: #f17e14!important; box-shadow: none!important;}
+.navbar-toggler-icon{background: #ec7036;border: none; }
+#home i{color:#fff; font-size: 25px;}
+.tabtext{
+   border: 1px solid;margin-top: 100px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+#Featured {margin-bottom: 20px;  padding: 50px;
+	background-attachment: fixed; position: relative;}
+#Featured h2{text-align: center; margin :10px 0 30px;color:#55362c; font-weight: 500;}
+#Featured h5{color:#55362c;font-size: 22px !important;}
+#Featured .card{ box-shadow: 5px 5px 15px 5px #55362c;}
+#Featured .card img:hover{ transform: scale(1.5,1.5); transition: 0.9s;}
+.abtimg{position :relative; text-align: center;}
+#about{background: url(Featured1.webp); background-size:cover; padding: 30px; background-attachment: fixed;}
+#about p{ position :absolute; color:#000; top:71px; font-size: 10px; text-align: center; left:  373px;}
+#about p:hover{transform: scale(1.5,1.5); transition: 0.9s;}
+#about h2{ text-align: center; margin-bottom: 30px;}
+#about a {font-size: 30px; color:#55362c;}
+#testimonal{margin: 20px;}
+#testimonal h2{text-align: center; margin:30px;}
+#testimonal h5{margin-top: -275px; border-style: 10px solid red;}
+#testimonal i {color:#f17e14; }
+#agent{background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(agent.jpeg);
+ background-attachment: fixed; padding: 40px;}
+#agent.card{position: relative;}
+#agent h2{text-align: center; margin: 40px; color: #fff; font-weight: 500;}
+#agent i{ font-size: 20px; color: #fff; text-align: center; }
+#agent.card-body{background:#fff;}
+#agent.card{position: relative;}
+.card-title{ font-size: 40px!important; font-weight: 700; color:#f17e14;  }
+.contact{ position: absolute; height:251px; width:286px;
+  background:linear-gradient(0deg,#f17e14, transparent); padding: 60px 30px; display: none;}
+.contact i{ margin: 20px 5px; font-size:40px!important; color:#6c2222!important;}
+#agent .card:hover .contact{display:block;}
+#agent .card:hover .card-body{ box-shadow: 5px 5px 15px 5px #fff; background: #fff; color: #f17e14,}
+#agent .card:hover .card-title{color:#6c2222; }
+#footer{background:#4e6766; background-size: cover; padding: 40px;}
+#footer a{ color: #fff; margin-bottom:20px; }
+#footer i{font-size: 30px;margin-right: 20px; padding: 20px;border-radius: 50%; }
+
+ .downtotop i{background: #dfdfdf; padding: 20px; border-radius: 50%; color: #885959; 
+ 	font-size: 27px; box-shadow: 0px 1px 16px 4px #fff;bottom :-10px; right: 25px; position: fixed;}
+.lastline{color: #fff; background:#6c2222; text-align: center; padding: 10px;}
+.aaa .nav-link li:hover{background:#f17e147d; }
+
+.aaa{
+	background:#212529b8!important;
+	color: #fff!important;
+}
+
+
+@media (max-width: 480px)
+{
+
+#home li a:hover{color:#ff7309!important;}
+#about img{width: 400px; height: 400px;}
+#about p{top:77px; font-size: 10px; left: 43px; text-align: center;}
+.card{margin-bottom: 20px; margin-right: 15px;}
+#testimonal h5{margin-top: 0px;}
+.card{margin-right: 40px;}
+#footer i{margin-top: 30px;}
+.downtotop i{ right: 25px;}
+#footer i{margin-right: 15px;}
+#top li a:hover{background:none;}
+}

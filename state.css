@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+body {
+	background: url(body.jpg);
+	font-family: 'Lora', serif;
+
+}
+#home
+{
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(hom.jpg);
+	background-size: cover;
+    height:100vh;
+	padding-top: 20px;
+	color: #fff;
+	
+}
+#home li a
+{
+	color: #ffff!important;
+}
+
+.navbar-toggler{background:#f17e14!important; }
+#home a 
+{font-size: 17px;
+margin-left: 5px;}
+#home img{width: 70px;height: 70px;}
+.hometext { text-align: center; padding-top: 150px; }
+.hometext span{color: #f17e14;  font-family: 'Kaushan Script', cursive;}
+/*.navbar-brand{margin-right: 200px;}*/
+
+/*.tabs{margin-top: 100px; margin-left: 150px; }*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{background: #f17e14!important;}
+/*.tabs{margin-top: 200px;}*/
+.tabs i {color: #f17e14; font-weight: bolder; }
+
+.tabs li a:hover{background:  #f17e14; }
+
+
+@media (max-width: 480px) 
+{
+ 
+  
+/*.tabs{ margin-left: 20px; }
+
+}
