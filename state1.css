@@ -23,10 +23,12 @@ span{color: #f17e14;  font-family: 'Kaushan Script', cursive;}
 .btn{background: #f17e14!important; box-shadow: none!important;}
 .navbar-toggler-icon{background: #ec7036;border: none; }
 #home i{color:#fff; font-size: 25px;}
-.tabtext{
-   border: 1px solid;margin-top: 100px;
-  padding: 10px;
-  box-shadow: 5px 10px 8px 10px #888888;
+.tabtext
+{
+ border: 1px solid;
+ margin-top: 100px;
+ padding: 10px;
+ box-shadow: 5px 10px 8px 10px #888888;
 }
 #Featured {margin-bottom: 20px;  padding: 50px;
 	background-attachment: fixed; position: relative;}
@@ -76,7 +78,7 @@ span{color: #f17e14;  font-family: 'Kaushan Script', cursive;}
 
 @media (max-width: 480px)
 {
-
+#home{height: 110vh;}
 #home li a:hover{color:#ff7309!important;}
 #about img{width: 300px!important; height: 330px!important;}
 #about p{top:40px; font-size:7px;left: 43px; text-align: center;}
@@ -87,4 +89,11 @@ span{color: #f17e14;  font-family: 'Kaushan Script', cursive;}
 .downtotop i{ right: 25px;}
 #footer i{margin-right: 15px;}
 #top li a:hover{background:none;}
+.tabtext{
+height: 100px;
+margin-top: 60px; padding: 20px 20px;}
+.hometext {
+  
+    padding-top: 129px;
+}
 }
